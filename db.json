@@ -1,21 +1,23 @@
 {
-  "load": [
-    {
-      "id": 1,
-      "status": 0,
-      "type": 0
-    },
-    {
-      "id": 2,
-      "status": 1,
-      "type": 0
-    },
-    {
-      "id": 3,
-      "status": 0,
-      "type": 1
-    }
-  ],
+  "load": {
+    "lights": [
+      {
+        "id": 0,
+        "status": 0
+      },
+      {
+        "id": 1,
+        "status": 1
+      }
+    ],
+    "fans": [
+      {
+        "id": 0,
+        "status": 0,
+        "value": 45
+      }
+    ]
+  },
   "sensor": [
     {
       "id": 1,
@@ -26,11 +28,6 @@
       "id": 2,
       "status": 1,
       "type": 1
-    },
-    {
-      "id": 3,
-      "status": 0,
-      "type": 2
     }
   ]
 }
